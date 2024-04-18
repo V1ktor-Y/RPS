@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="icon" href="https://variety.com/wp-content/uploads/2024/01/Dwayne-Johnson_credHuyDoan-e1705977711715.jpg?w=1000&h=563&crop=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<h1>Rock Paper Scissors</h1>	
+		<div class = "container">
+			<div class="break"></div>
+			<button onclick="select(1)">
+				<img id = "rock" class = "img" src="https://variety.com/wp-content/uploads/2024/01/Dwayne-Johnson_credHuyDoan-e1705977711715.jpg?w=1000&h=563&crop=1">
+			</button>
+
+			<button  onclick="select(2)">
+				<img id = "paper" class = "img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwezsy-M46gHauAoNQOaSREfXEzwzKbAsYmeLCK-7pCw&s">
+			</button>
+
+			<button  onclick="select(3)">
+				<img id = "scissors" class = "img" src="https://t3.ftcdn.net/jpg/04/79/69/50/360_F_479695049_kbsT7GXbBc7VWYkWtASpSXtF4TyfLolG.jpg">
+			</button>
+		</div>	
+		
+		<div class = "container">
+			<button onclick = "showResult()" class = "confirm">Confirm</button>
+		</div>
+		<br>
+		<p id = "computer">
+			<p id = "ans" class = "computerAns"> </p>
+			<p id = "result"></p> 
+		</p>
+		<img id = "resultImg" class = "centerImg">
+	</body>
+</html>
